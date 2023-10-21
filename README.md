@@ -6,7 +6,8 @@ npm_packages:
   - binary-parser
 
 
-Also /config/node-red/settings.js should have the functionsGlobalContext section filled out with.
+Also /config/node-red/settings.js should have the functionsGlobalContext section filled out with:
+  
   functionGlobalContext: {
     // os:require('os'),
     // jfive:require("johnny-five"),
