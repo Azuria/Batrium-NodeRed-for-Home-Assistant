@@ -6,11 +6,6 @@ npm_packages:
   - binary-parser
 
 
-Also /config/node-red/settings.js should have the functionsGlobalContext section filled out with:
+Also /config/node-red/settings.js should have the functionsGlobalContext section filled out with the settings.js settings from this file.
+Use the Home Assistant file editor to edit your file to match.
   
-  functionGlobalContext: {
-    // os:require('os'),
-    // jfive:require("johnny-five"),
-    // j5board:require("johnny-five").Board({repl:false})
-    binary_parser:require('binary-parser').Parser,
-  },
