@@ -6,4 +6,7 @@ In Add-on settings for Node-Red configuration, add the NPM as shown in configura
 
 Also /config/node-red/settings.js should have the functionsGlobalContext section filled out with the settings.js file example.
 Use the Home Assistant file editor to edit your file to match.
-  
+ 
+ 
+Based on Gareth's work here.
+https://community.home-assistant.io/t/batrium-ha-intergration/316039
